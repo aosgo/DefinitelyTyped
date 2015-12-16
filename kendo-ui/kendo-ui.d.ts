@@ -7739,6 +7739,7 @@ declare module kendo.ui {
     }
 
     interface ValidatorValidateEvent extends ValidatorEvent {
+        valid?: boolean;
     }
 
 
